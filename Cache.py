@@ -1,12 +1,3 @@
-#HW4
-#Due Date: 04/25/2020, 11:59PM EST 
-########################################
-#                                      
-# Name: Dev Patel
-# Collaboration Statement: I worked on this hw alone using course materials.         
-#
-########################################
-
 class ContentItem:
 	def __init__(self, cid, size, header, content):
 		self.cid = cid
@@ -143,8 +134,7 @@ class CacheList:
 
 class Cache:
 	"""
-	A more comprehensive doctest is provided in the HW4_doctest.py file. 
-	You can replace this doctest when you are ready to test your entire code
+	A more comprehensive doctest is provided in the doctest.py file. 
 	
 	>>> cache = Cache()
 	>>> content1 = ContentItem(1000, 10, "Content-Type: 0", "0xA")
